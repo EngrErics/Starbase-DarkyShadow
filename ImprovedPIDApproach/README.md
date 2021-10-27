@@ -4,7 +4,7 @@ Tuning of this System requires some understanding. I made a manual that teaches 
 
 <br>
 
-### `!!! DOWNLOAD THE MANUAL !!!`
+### `!!! DOWNLOAD THE PDF MANUAL !!!`
 
 <br>
 

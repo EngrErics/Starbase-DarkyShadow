@@ -27,7 +27,7 @@ A Hybrid Button or Simple Button needs to be added
 
 `ButtonState` can be renamed to `Ap`
 
-`ButtonOnStateValue` set to 1, `ButtonOffStateValue` set to 0, this is for Hybrid Button
+`ButtonOnStateValue` set to `1`, `ButtonOffStateValue` set to `0`, this is only for a Hybrid Button
 
 `ButtonStyle` should be `1`, we want a basic toggle functionality
 

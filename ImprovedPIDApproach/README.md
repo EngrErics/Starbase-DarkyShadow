@@ -23,9 +23,15 @@ Make sure to set up your Range Finder&#39;s Fields
 
 `RangeFinderDistance` should be renamed to `M`
 
-A Button needs to be added called Ap
+A Hybrid Button or Simple Button needs to be added
 
-This script assumes a transponder has been installed so that you can have 2 different tunings on line 3 and 4 for whether you are inside the safezone or out of the safezone. If there is no Transponder present on the ship then you should repalce the `:insideSafeZone` on line 2 with `0`, alternatively you can just delete the entire `+:insideSafeZone`.
+`ButtonState` can be renamed to `Ap`
+
+`ButtonOnStateValue` set to 1, `ButtonOffStateValue` set to 0, this is for Hybrid Button
+
+`ButtonStyle` should be `1`, we want a basic toggle functionality
+
+Note: This script assumes a transponder has been installed so that you can have 2 different tunings on line 3 and 4 for whether you are inside the safezone or out of the safezone. If there is no Transponder present on the ship then you should repalce the `:insideSafeZone` on line 2 with `0`, alternatively you can just delete the entire `+:insideSafeZone`.
 
 <br>
 <br>

@@ -23,6 +23,8 @@ Make sure to set up your Range Finder&#39;s Fields
 
 `RangeFinderDistance` should be renamed to `M`
 
+A Button needs to be added called Ap
+
 This script assumes a transponder has been installed so that you can have 2 different tunings on line 3 and 4 for whether you are inside the safezone or out of the safezone. If there is no Transponder present on the ship then you should repalce the `:insideSafeZone` on line 2 with `0`, alternatively you can just delete the entire `+:insideSafeZone`.
 
 <br>

@@ -1,6 +1,14 @@
-`ImprovedPIDApproach` is a PID Controller that has been modified to approximate a Motion Profiled PID Controller for the Starbase game problem of approaching asteroids.
+## `ImprovedPIDApproach` is a PID Controller that has been modified to approximate a Motion Profiled PID Controller for the Starbase game problem of approaching asteroids.
 
-`Installation:`
+Tuning of this System requires some understanding. I made a manual that teaches PID in a very easy way and explains how it's been modified for us.
+
+<br>
+
+### `!!! DOWNLOAD THE MANUAL !!!`
+
+<br>
+
+### `Installation:`
 
 Make sure to set up your Range Finder&#39;s Fields
 
@@ -10,9 +18,14 @@ Make sure to set up your Range Finder&#39;s Fields
 
 `RangeFinderDistance` should be renamed to `M`
 
-This script assumes a transponder has been installed so that you can have 2 different tunings on line 3 and 4 for whether you are inside the safezone or out of the safezone. If there is no Transponder present on the ship then you should remove the `:insideSafeZone` on line 2 with `0`, alternatively you can just delete the entire `+:insideSafeZone`;.
+This script assumes a transponder has been installed so that you can have 2 different tunings on line 3 and 4 for whether you are inside the safezone or out of the safezone. If there is no Transponder present on the ship then you should repalce the `:insideSafeZone` on line 2 with `0`, alternatively you can just delete the entire `+:insideSafeZone`.
 
-**Tuning Parameters:** Only Change These Values on lines 1, 3, and 4
+<br>
+<br>
+
+### `Tuning Parameters:`
+
+Only Change These Values on lines 1, 3, and 4
 
 I have placed these in order of importance for you to get your desired results
 

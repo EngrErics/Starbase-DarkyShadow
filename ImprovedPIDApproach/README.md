@@ -1,6 +1,6 @@
-Asteroid Approach called ImprovedPIDApproach, it is a PID Controller that has been modified to Approximate Motion Profiling for the Starbase game problem of approaching asteroids.
+`ImprovedPIDApproach` is a PID Controller that has been modified to approximate a Motion Profiled PID Controller for the Starbase game problem of approaching asteroids.
 
-**Installation:**
+`Installation:`
 
 Make sure to set up your Range Finder&#39;s Fields
 

@@ -58,7 +58,7 @@ I have placed these in order of importance for you to get your desired results
 
 `H=0.5` This value should always be between 0 and 1. Lower values reduce oscillations in the d term at the cost of losing responsiveness. Higher values cause the d term to be more responsive. For more aggressive tunings you will have to use a higher value here. If you see your rev thrusters pulsing too much during flight and especially if it causes you to veer off throughout the middle of the approach, decreasing this will help at the cost of not being able to user larger Kp values. This value affects a lowpass filter that has been applied to the D term on line 5. If unsure keep between 0.5 and 0.8.
 
-`g=0.200` This value determines the stop condition of the approach software loop. The end is determined by the velocity that the ship is moving while at the setpoint. 0.200 in the example refers to the velocity the ship can still be moving when at the setpoint when determining when the end of the approach has occurred. If you want the approach end to be recognized sooner, increase this value. 
+`g=0.200` This value determines the stop condition of the approach software loop. The end is determined by the velocity that the ship is moving while at the setpoint. 0.200 in the example refers to the velocity the ship can still be moving when at the setpoint when determining that the end of the approach has occurred. If you want the approach end to be recognized sooner, increase this value. 
 
 `ib=5` Distance within (meters), where Integration will begin to be performed. Another way to decrease the amount of time that you spend centering on the setpoint at the very end is to start the integration a little sooner, you could try changing this to 6,7,10 etc…
 

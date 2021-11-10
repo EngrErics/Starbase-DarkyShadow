@@ -48,9 +48,9 @@ I have placed these in order of importance for you to get your desired results
 
 `s=17` Setpoint, what distance from asteroid you want to approach to
 
-`m=500` Required minimum distance to asteroid that approach will work/begin
+`m=500` Required minimum distance to asteroid that approach will work/begin. While the approach is enabled, any time the rangefinder has a value greater than this the approach will be in a safe state not flying the ship but instead waiting to enter/reenter the approach sequence. For maximum range (i.e. doing approach from max distance, set this to 1000)  
 
-`t=20` Time spent to limit/rampup acceleration, in multiples of 0.4s, i.e. 20=8sec reducing this number will cause a faster initial rampup. If you veer off course during the initial start increasing this number will more gracefully start the approach. Think of this as a softstart.
+`t=20` Time spent to limit/rampup acceleration, in multiples of 0.4s, i.e. 20=8sec, reducing this number will cause a faster initial rampup. If you veer off course during the initial start increasing this number will more gracefully start the approach. Think of this as a softstart.
 
 `Kp=0.06` Coefficient of Proportional term, increase for a faster more aggressive approaches.
 

@@ -1,5 +1,7 @@
 ## `ImprovedPIDApproach` is a PID Controller that has been modified to approximate a Motion Profiled PID Controller for the Starbase game problem of approaching asteroids.
 
+NOTE: V2 is vastly better than the original but requires fcuforward and fcubackward to be renamed to FWD and BWD respectively. What makes V2 better than the original is that in V2 the Proportional Term is capped by a value between 0 to 1000. This "Tricks" the PID algorithm into applying a constant thrust throughout the middle portion of our approach. In the code, this tunable variable is n and can be found on lines 3 and 4. Lower values of n will result in lower speeds throughout the middle portion of the approach and larger values will result in higher speeds. My recommendation is to set n=500 and then tune Kp and Kd to have a graceful approach to the setpoint. Other changes that have ocurred is that now the h filter value is f and has been inverted, meaning that if your h=0.8 in V1 then in V2 f=0.2. The great thing about V2 is that if you tune and find good values of Kp and Kd for a tuning in the safe-zone (more aggressive) you can easily keep it the same and simply modify n lower for outside the safe-zone (more conservative).
+
 Tuning of this System requires some understanding. I made a manual that teaches PID in a very easy way and explains how it's been modified for us.
 
 Intro Video https://youtu.be/rJoOOk1pjak

@@ -6,6 +6,9 @@ Tuning of this System requires some understanding. I made a manual that teaches 
 
 Intro Video https://youtu.be/rJoOOk1pjak
 
+You can see a good example of this algorithm in action here @ 13min 40sec https://www.youtube.com/watch?v=voRbRqMvug4
+
+
 ### `!!! DOWNLOAD THE PDF MANUAL !!!`
 Credit is given in the manual to a different version by player: Whitestrake and one snipet of code was used (d\*d>g+e\*e>1) from his version. Thanks for your work and the opensource version you provided. I hope my version is paying it forward.
 

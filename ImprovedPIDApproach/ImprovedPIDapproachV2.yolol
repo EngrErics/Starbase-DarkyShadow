@@ -1,4 +1,4 @@
-s=15 t=3 m=1000 g=0.800 ib=4 p=0 i=0 x=ib+s u=0
+s=15 t=15 m=1000 g=0.800 ib=4 p=0 i=0 x=ib+s u=0
 if :Ap*(:M<m) then goto3+:insideSafeZone end goto1
 Kp=0.078 Ki=0.001 Kd=5.4 f=0.3 n=300 Kd*=1-f l=:M-s :F=b goto5 //NSZ
 Kp=0.078 Ki=0.001 Kd=5.4 f=0.3 n=700 Kd*=1-f l=:M-s :F=b goto5 //SZ
